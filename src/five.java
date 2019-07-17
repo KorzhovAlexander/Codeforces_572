@@ -27,12 +27,20 @@ public class five {
         Scanner sc = new Scanner(System.in);
         int ver = sc.nextInt();
         int[] m = new int[ver*2];
-        long s;
+        long s = 0;
 
         for (int i = 0; i < m.length; i++) {
             m[i]=sc.nextInt();
         }
 
+        for (int i = 0; i < m.length-3; i=i+1) {
+            s+=m[i]*m[i+3];
+        }
+
         System.out.println(Arrays.toString(m));
+
+
+        System.out.println(s);
+
     }
 }
