@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+import static java.lang.Math.abs;
+
 /**
  * find polygon area
  *
@@ -33,14 +35,16 @@ public class five {
             m[i]=sc.nextInt();
         }
 
-        for (int i = 0; i < m.length-3; i=i+1) {
-            s+=m[i]*m[i+3];
+        for (int i = 0; i < m.length-3; i=i+2) {
+            s+=m[i]*m[i+3]-(m[i+1]*m[i+2]);
         }
+
+        s+=m[ver*2-2]*m[1]-m[ver*2-1]*m[0];
 
         System.out.println(Arrays.toString(m));
 
 
-        System.out.println(s);
+        System.out.println(abs(s/2));
 
     }
 }
