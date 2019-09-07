@@ -1,3 +1,5 @@
+package oldprj;
+
 import java.util.Scanner;
 
 /**
@@ -7,8 +9,8 @@ import java.util.Scanner;
 
 public class first {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String message=in.nextLine().replaceAll("^ | $| {2}","");
+        final Scanner in = new Scanner(System.in);
+        final String message=in.nextLine().replaceAll("^ | $| {2}","");
         System.out.println(message);
     }
 }

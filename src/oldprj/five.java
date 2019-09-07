@@ -1,3 +1,5 @@
+package oldprj;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -6,7 +8,7 @@ import static java.lang.Math.abs;
 /**
  * find polygon area
  *
- * first value - number of vertices
+ * oldprj.first value - number of vertices
  * next value - coordinates
  */
 
