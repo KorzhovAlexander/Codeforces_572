@@ -1,6 +1,6 @@
 package october;
 import java.util.Scanner;
-
+// в массиве найти минимальный элемент минус максимальный(справа от мин) элемент
 public class Olymp2 {
 
     public static void main(String[] args) {

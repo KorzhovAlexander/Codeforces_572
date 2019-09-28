@@ -1,7 +1,7 @@
 package october;
 
 import java.util.Scanner;
-
+//найти последние нинуливое число факториала числа 5! = 120 (ответ 2)
 public class Olymp1 {
 
     static long calculateFactorial(int n) {
