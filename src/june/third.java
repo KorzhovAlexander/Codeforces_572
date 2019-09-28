@@ -1,4 +1,4 @@
-package oldprj;
+package june;
 
 import java.util.Scanner;
 
